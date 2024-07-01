@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container fill the entire viewport height */
+  }
+  /* YouthMentalHealthTest.css */
+.youth-mental-health-test {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .youth-mental-health-test h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Red color for headings */
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 18px;
+    color: #555; /* Dark gray color for question count */
+  }
+  
+  .question-text {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333; /* Dark text color for questions */
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .answer-option {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-option:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+  }
+  
+  /* Styles for the result section */
+  .result-section {
+    background-color: #f0f0f0; /* Light gray background for result section */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .result-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Red color for result message */
+  }
+  
+  .next-steps {
+    font-size: 18px;
+    color: #555; /* Dark gray color for guidance message */
+    margin-bottom: 20px;
+  }
+  
+  .retake-button {
+    padding: 12px 20px;
+    background-color: #27ae60; /* Green color for retake button */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .retake-button:hover {
+    background-color: #219e54; /* Slightly darker green on hover */
+  }
+  
